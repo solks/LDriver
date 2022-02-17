@@ -1,0 +1,223 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 64WR2KLF
+#/1316562/299427/2.47/3/4/Variable Resistor
+DEF 64WR2KLF VR 0 30 Y Y 1 F N
+F0 "VR" 950 300 50 H V L CNN
+F1 "64WR2KLF" 950 200 50 H V L CNN
+F2 "64WR2KLF" 950 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/64WR2KLF.pdf" 950 0 50 H I L CNN
+F4 "Res Cermet Trimmer 2K Ohm 10% 0.25W(1/4W) 12(Elec)Turns 1.78mm (6.35 X 4.19 X 7.88mm) Pin Thru-Hole Tube" 950 -100 50 H I L CNN "Description"
+F5 "8.39" 950 -200 50 H I L CNN "Height"
+F6 "858-64WR2KLF" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=858-64WR2KLF" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "BI Technologies" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "64WR2KLF" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CCW 1 0 0 200 R 50 50 0 0 P
+X WIPER 2 1100 0 200 L 50 50 0 0 P
+X CW 3 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model AD620ANZ
+#/169122/299427/2.47/8/3/Integrated Circuit
+DEF AD620ANZ IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "AD620ANZ" 1050 200 50 H V L CNN
+F2 "DIP794W56P254L959H533Q8N" 1050 100 50 H I L CNN
+F3 "" 1050 0 50 H I L CNN
+F4 "Instrumentation amplifier,AD620AN DIP8 AD620ANZ, Instrumentation Amplifier, 0.125mV Offset, 1MHz 73dB CMRR, 8-Pin PDIP" 1050 -100 50 H I L CNN "Description"
+F5 "5.33" 1050 -200 50 H I L CNN "Height"
+F6 "584-AD620ANZ" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD620ANZ?qs=NmRFExCfTkHu6Llcn4Sf4Q%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Analog Devices" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AD620ANZ" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X RG_1 1 0 0 200 R 50 50 0 0 P
+X -IN 2 0 -100 200 R 50 50 0 0 P
+X +IN 3 0 -200 200 R 50 50 0 0 P
+X -VS 4 0 -300 200 R 50 50 0 0 P
+X RG_2 8 1200 0 200 L 50 50 0 0 P
+X +VS 7 1200 -100 200 L 50 50 0 0 P
+X OUTPUT 6 1200 -200 200 L 50 50 0 0 P
+X REF 5 1200 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BD911
+#/179155/299427/2.47/3/3/Integrated Circuit
+DEF BD911 IC 0 30 Y Y 1 F N
+F0 "IC" 650 300 50 H V L CNN
+F1 "BD911" 650 200 50 H V L CNN
+F2 "TO270P460X1020X2008-3P" 650 100 50 H I L CNN
+F3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00001277.pdf" 650 0 50 H I L CNN
+F4 "BD911, NPN Bipolar Transistor,  15 A 100 V HFE:5 3 MHz Power, 3-Pin TO-220" 650 -100 50 H I L CNN "Description"
+F5 "4.6" 650 -200 50 H I L CNN "Height"
+F6 "511-BD911" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/BD911?qs=ljbEvF4DwOPLj9IBi%2FpHjA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "STMicroelectronics" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "BD911" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X B 1 0 0 200 R 50 50 0 0 P
+X C 2 0 -100 200 R 50 50 0 0 P
+X E 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 172448-0002
+#/565881/299427/2.47/2/4/Connector
+DEF 172448-0002 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "172448-0002" 650 200 50 H V L CNN
+F2 "1724480002" 650 100 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/1724480002_sd.pdf" 650 0 50 H I L CNN
+F4 "Power to the Board MiniFitJr RA DR/Pegs Tin Glow Wire 2Ckt" 650 -100 50 H I L CNN "Description"
+F5 "9.98" 650 -200 50 H I L CNN "Height"
+F6 "538-172448-0002" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/172448-0002?qs=UxK%2FDTs6dB7QCsYDDo1Dcw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "172448-0002" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 172448-0004
+#/231198/299427/2.47/4/4/Connector
+DEF 172448-0004 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "172448-0004" 650 200 50 H V L CNN
+F2 "1724480004" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "MOLEX - 172448-0004 - MINIFIT JR RA DR/PEGS TIN GLOW WIRE 4CKT 28Y0329" 650 -100 50 H I L CNN "Description"
+F5 "10" 650 -200 50 H I L CNN "Height"
+F6 "538-172448-0004" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/172448-0004?qs=UxK%2FDTs6dB6CtzGMQhL0Hg%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "172448-0004" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 800 -100 200 L 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 800 0 200 L 50 50 0 0 P
+X 4 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LM338T_NOPB
+#/246147/299427/2.47/3/3/Integrated Circuit
+DEF LM338T_NOPB IC 0 30 Y Y 1 F N
+F0 "IC" 750 300 50 H V L CNN
+F1 "LM338T_NOPB" 750 200 50 H V L CNN
+F2 "TO254P470X1028X1955-3P" 750 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/lm338.pdf" 750 0 50 H I L CNN
+F4 "5 Amp Adjustable Regulator  LM338T LM338T/NOPB, Voltage Regulator, 5A Adjustable 1.2  32 V, 25W, 3-Pin TO-220" 750 -100 50 H I L CNN "Description"
+F5 "4.7" 750 -200 50 H I L CNN "Height"
+F6 "926-LM338T/NOPB" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM338T-NOPB?qs=X1J7HmVL2ZENaH7%2FMvkSlw%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LM338T/NOPB" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ADJ 1 0 0 200 R 50 50 0 0 P
+X VOUT 2 0 -100 200 R 50 50 0 0 W
+X VIN 3 0 -200 200 R 50 50 0 0 W
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 90136-2302
+#/427413/299427/2.47/2/4/Connector
+DEF 90136-2302 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "90136-2302" 650 200 50 H V L CNN
+F2 "901362302" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/90136-2302.pdf" 650 0 50 H I L CNN
+F4 "Molex C-GRID III Series, Series Number 90136, 2.54mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 3A" 650 -100 50 H I L CNN "Description"
+F5 "11.1" 650 -200 50 H I L CNN "Height"
+F6 "538-90136-2302" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/90136-2302?qs=kEwmkoUtv7Qtv3Ds%252BJEx1w%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "90136-2302" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 90136-1102
+#/315799/299427/2.47/2/3/Connector
+DEF 90136-1102 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "90136-1102" 650 200 50 H V L CNN
+F2 "SHDR2W65P0X254_1X2_843X721X1110P" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "Header 2.54mm, single row, vertical, 2w Molex C-GRID III Series, Series Number 90136, 2.54mm Pitch 2 Way 1 Row Straight PCB Header, Solder Termination, 3A" 650 -100 50 H I L CNN "Description"
+F5 "11.1" 650 -200 50 H I L CNN "Height"
+F6 "538-90136-1102" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/90136-1102?qs=kEwmkoUtv7SiXyA4aT%252Bklw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "90136-1102" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 90136-1103
+#/315798/299427/2.47/3/3/Connector
+DEF 90136-1103 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "90136-1103" 650 200 50 H V L CNN
+F2 "SHDR3W65P0X254_1X3_1097X721X1110P" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "Header 2.54mm, single row, vertical, 3w Molex C-GRID III Series, Series Number 90136, 2.54mm Pitch 3 Way 1 Row Straight PCB Header, Solder Termination, 3A" 650 -100 50 H I L CNN "Description"
+F5 "11.1" 650 -200 50 H I L CNN "Height"
+F6 "538-90136-1103" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/90136-1103?qs=kEwmkoUtv7SHZQ1YiKbD1w%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "90136-1103" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

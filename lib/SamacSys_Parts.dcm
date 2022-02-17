@@ -1,0 +1,63 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP 64WR2KLF
+D Res Cermet Trimmer 2K Ohm 10% 0.25W(1/4W) 12(Elec)Turns 1.78mm (6.35 X 4.19 X 7.88mm) Pin Thru-Hole Tube
+K
+F https://componentsearchengine.com/Datasheets/1/64WR2KLF.pdf
+$ENDCMP
+#
+$CMP AD620ANZ
+D Instrumentation amplifier,AD620AN DIP8 AD620ANZ, Instrumentation Amplifier, 0.125mV Offset, 1MHz 73dB CMRR, 8-Pin PDIP
+K
+F 
+$ENDCMP
+#
+$CMP BD911
+D BD911, NPN Bipolar Transistor,  15 A 100 V HFE:5 3 MHz Power, 3-Pin TO-220
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00001277.pdf
+$ENDCMP
+#
+$CMP 172448-0002
+D Power to the Board MiniFitJr RA DR/Pegs Tin Glow Wire 2Ckt
+K
+F https://www.molex.com/pdm_docs/sd/1724480002_sd.pdf
+$ENDCMP
+#
+$CMP 172448-0004
+D MOLEX - 172448-0004 - MINIFIT JR RA DR/PEGS TIN GLOW WIRE 4CKT 28Y0329
+K
+F 
+$ENDCMP
+#
+$CMP LM338T_NOPB
+D 5 Amp Adjustable Regulator  LM338T LM338T/NOPB, Voltage Regulator, 5A Adjustable 1.2  32 V, 25W, 3-Pin TO-220
+K
+F http://www.ti.com/lit/ds/symlink/lm338.pdf
+$ENDCMP
+#
+$CMP 90136-2302
+D Molex C-GRID III Series, Series Number 90136, 2.54mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 3A
+K
+F https://componentsearchengine.com/Datasheets/1/90136-2302.pdf
+$ENDCMP
+#
+$CMP 90136-1102
+D Header 2.54mm, single row, vertical, 2w Molex C-GRID III Series, Series Number 90136, 2.54mm Pitch 2 Way 1 Row Straight PCB Header, Solder Termination, 3A
+K
+F 
+$ENDCMP
+#
+$CMP 90136-1103
+D Header 2.54mm, single row, vertical, 3w Molex C-GRID III Series, Series Number 90136, 2.54mm Pitch 3 Way 1 Row Straight PCB Header, Solder Termination, 3A
+K
+F 
+$ENDCMP
+#
+#End Doc Library

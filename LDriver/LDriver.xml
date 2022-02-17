@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/solk-d10/Documents/Work/Phys/LDriver/LDriver/LDriver.sch</source>
+    <date>пт, 11-вер-2020 15:53:04 +0300</date>
+    <tool>Eeschema 5.0.2+dfsg1-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LDriver.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D2">
+      <value>ICL8069</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm4040-n.pdf</datasheet>
+      <libsource lib="Reference_Voltage" part="LM4040LP-2.0" description="2.048V Precision Micropower Shunt Voltage Reference, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F317282</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>AD620ANZ</value>
+      <footprint>SamacSys_Parts:DIP794W56P254L959H533Q8N</footprint>
+      <fields>
+        <field name="Description">Instrumentation amplifier,AD620AN DIP8 AD620ANZ, Instrumentation Amplifier, 0.125mV Offset, 1MHz 73dB CMRR, 8-Pin PDIP</field>
+        <field name="Height">5.33</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">AD620ANZ</field>
+        <field name="Mouser Part Number">584-AD620ANZ</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD620ANZ?qs=NmRFExCfTkHu6Llcn4Sf4Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="AD620ANZ" description="Instrumentation amplifier,AD620AN DIP8 AD620ANZ, Instrumentation Amplifier, 0.125mV Offset, 1MHz 73dB CMRR, 8-Pin PDIP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F317E60</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>AD620ANZ</value>
+      <footprint>SamacSys_Parts:DIP794W56P254L959H533Q8N</footprint>
+      <fields>
+        <field name="Description">Instrumentation amplifier,AD620AN DIP8 AD620ANZ, Instrumentation Amplifier, 0.125mV Offset, 1MHz 73dB CMRR, 8-Pin PDIP</field>
+        <field name="Height">5.33</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">AD620ANZ</field>
+        <field name="Mouser Part Number">584-AD620ANZ</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD620ANZ?qs=NmRFExCfTkHu6Llcn4Sf4Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="AD620ANZ" description="Instrumentation amplifier,AD620AN DIP8 AD620ANZ, Instrumentation Amplifier, 0.125mV Offset, 1MHz 73dB CMRR, 8-Pin PDIP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F317F33</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>172448-0004</value>
+      <footprint>SamacSys_Parts:1724480004</footprint>
+      <fields>
+        <field name="Description">MOLEX - 172448-0004 - MINIFIT JR RA DR/PEGS TIN GLOW WIRE 4CKT 28Y0329</field>
+        <field name="Height">10</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">172448-0004</field>
+        <field name="Mouser Part Number">538-172448-0004</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/172448-0004?qs=UxK%2FDTs6dB6CtzGMQhL0Hg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="172448-0004" description="MOLEX - 172448-0004 - MINIFIT JR RA DR/PEGS TIN GLOW WIRE 4CKT 28Y0329"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F318458</tstamp>
+    </comp>
+    <comp ref="VR1">
+      <value>64WR2KLF</value>
+      <footprint>SamacSys_Parts:64WR2KLF</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/64WR2KLF.pdf</datasheet>
+      <fields>
+        <field name="Description">Res Cermet Trimmer 2K Ohm 10% 0.25W(1/4W) 12(Elec)Turns 1.78mm (6.35 X 4.19 X 7.88mm) Pin Thru-Hole Tube</field>
+        <field name="Height">8.39</field>
+        <field name="Manufacturer_Name">BI Technologies</field>
+        <field name="Manufacturer_Part_Number">64WR2KLF</field>
+        <field name="Mouser Part Number">858-64WR2KLF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=858-64WR2KLF</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="64WR2KLF" description="Res Cermet Trimmer 2K Ohm 10% 0.25W(1/4W) 12(Elec)Turns 1.78mm (6.35 X 4.19 X 7.88mm) Pin Thru-Hole Tube"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F319072</tstamp>
+    </comp>
+    <comp ref="VR2">
+      <value>64WR2KLF</value>
+      <footprint>SamacSys_Parts:64WR2KLF</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/64WR2KLF.pdf</datasheet>
+      <fields>
+        <field name="Description">Res Cermet Trimmer 2K Ohm 10% 0.25W(1/4W) 12(Elec)Turns 1.78mm (6.35 X 4.19 X 7.88mm) Pin Thru-Hole Tube</field>
+        <field name="Height">8.39</field>
+        <field name="Manufacturer_Name">BI Technologies</field>
+        <field name="Manufacturer_Part_Number">64WR2KLF</field>
+        <field name="Mouser Part Number">858-64WR2KLF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=858-64WR2KLF</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="64WR2KLF" description="Res Cermet Trimmer 2K Ohm 10% 0.25W(1/4W) 12(Elec)Turns 1.78mm (6.35 X 4.19 X 7.88mm) Pin Thru-Hole Tube"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F319145</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>470R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F319585</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3197B8</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F335F35</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>150R 1W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F36751C</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>249R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F36CBDD</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>249k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F36E88F</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3E5AE6</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3FD09A</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F41DEBA</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>5k1</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F477B86</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F49E577</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>249R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4B5DB3</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>47uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4EA5FB</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k4</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4F3E46</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BD911</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001277.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BD911" description="15A, Silicon Power NPN Transistors, TO-220"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5A4740</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5F3126</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>TIP42C</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.centralsemi.com/get_document.php?cmp=1&amp;mergetype=pd&amp;mergepath=pd&amp;pdf_id=TIP42.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="TIP42C" description="-6A Ic, -100V Vce, Power PNP Transistor, TO-220"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5A4957</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F70AF8A</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LM329</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm4040-n.pdf</datasheet>
+      <libsource lib="Reference_Voltage" part="LM4040LP-5" description="5.000V Precision Micropower Shunt Voltage Reference, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA7EAE3</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM338</value>
+      <footprint>digikey-footprints:TO-220-3</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf</datasheet>
+      <fields>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="DK_Datasheet_Link">http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/stmicroelectronics/LM317T/497-1575-5-ND/591677</field>
+        <field name="Description">IC REG LIN POS ADJ 1.5A TO220AB</field>
+        <field name="Digi-Key_PN">497-1575-5-ND</field>
+        <field name="Family">PMIC - Voltage Regulators - Linear</field>
+        <field name="MPN">LM317T</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_PMIC-Voltage-Regulators-Linear" part="LM317T" description="IC REG LIN POS ADJ 1.5A TO220AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAAD81A</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>L78L09</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="L78L09_TO92" description="Positive 100mA 30V Linear Regulator, Fixed Output 9V, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAF03B9</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>L79L09</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1827870.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="L79L05_TO92" description="Negative 100mA -30V Linear Regulator, Fixed Output -5V, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB036AB</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>90136-1103</value>
+      <footprint>SamacSys_Parts:SHDR3W65P0X254_1X3_1097X721X1110P</footprint>
+      <fields>
+        <field name="Description">Header 2.54mm, single row, vertical, 3w Molex C-GRID III Series, Series Number 90136, 2.54mm Pitch 3 Way 1 Row Straight PCB Header, Solder Termination, 3A</field>
+        <field name="Height">11.1</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">90136-1103</field>
+        <field name="Mouser Part Number">538-90136-1103</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/90136-1103?qs=kEwmkoUtv7SHZQ1YiKbD1w%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="90136-1103" description="Header 2.54mm, single row, vertical, 3w Molex C-GRID III Series, Series Number 90136, 2.54mm Pitch 3 Way 1 Row Straight PCB Header, Solder Termination, 3A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F40A391</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1000uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F41F930</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F48110A</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F499CC3</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>4R7 15W</value>
+      <footprint>Resistor_THT:R_Axial_Power_L38.0mm_W9.0mm_P40.64mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F501C6D</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>511k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3C2735</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4460C5</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4460B1</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>220uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4C5DCB</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4CB627</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>SB2100</value>
+      <footprint>Diode_THT:D_DO-15_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88526/1n5820.pdf</datasheet>
+      <libsource lib="Diode" part="1N5821" description="30V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4AD3A5</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>172448-0002</value>
+      <footprint>SamacSys_Parts:1724480002</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/1724480002_sd.pdf</datasheet>
+      <fields>
+        <field name="Description">Power to the Board MiniFitJr RA DR/Pegs Tin Glow Wire 2Ckt</field>
+        <field name="Height">9.98</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">172448-0002</field>
+        <field name="Mouser Part Number">538-172448-0002</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/172448-0002?qs=UxK%2FDTs6dB7QCsYDDo1Dcw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="172448-0002" description="Power to the Board MiniFitJr RA DR/Pegs Tin Glow Wire 2Ckt"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3182B1</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F586D69</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F586F1C</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F593114</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5991D7</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4D6643</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F57C6CB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5820">
+      <aliases>
+        <alias>1N5821</alias>
+        <alias>1N5822</alias>
+        <alias>MBR340</alias>
+      </aliases>
+      <description>20V 3A Schottky Barrier Rectifier Diode, DO-201AD</description>
+      <docs>http://www.vishay.com/docs/88526/1n5820.pdf</docs>
+      <footprints>
+        <fp>D*DO?201AD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5820</field>
+        <field name="Footprint">Diode_THT:D_DO-201AD_P15.24mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Reference_Voltage" part="LM4040LP-2.0">
+      <aliases>
+        <alias>LM4040LP-2.5</alias>
+        <alias>LM4040LP-3</alias>
+        <alias>LM4040LP-4.1</alias>
+        <alias>LM4040LP-5</alias>
+        <alias>LM4040LP-8.2</alias>
+        <alias>LM4040LP-10</alias>
+      </aliases>
+      <description>2.048V Precision Micropower Shunt Voltage Reference, TO-92</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm4040-n.pdf</docs>
+      <footprints>
+        <fp>TO?92*Inline*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LM4040LP-2.0</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM79L05_TO92">
+      <aliases>
+        <alias>LM79L12_TO92</alias>
+        <alias>LM79L15_TO92</alias>
+        <alias>L79L05_TO92</alias>
+        <alias>L79L08_TO92</alias>
+        <alias>L79L12_TO92</alias>
+        <alias>L79L15_TO92</alias>
+        <alias>MCP1700-3002E_TO92</alias>
+        <alias>MCP1700-1202E_TO92</alias>
+        <alias>MCP1700-1802E_TO92</alias>
+        <alias>MCP1700-2502E_TO92</alias>
+        <alias>MCP1700-2802E_TO92</alias>
+        <alias>MCP1700-3302E_TO92</alias>
+        <alias>MCP1700-5002E_TO92</alias>
+      </aliases>
+      <description>3-Terminal Negative Regulator, -5V, TO-92</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm79l.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM79L05_TO92</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VI" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="MC78L05_TO92">
+      <aliases>
+        <alias>LM78L05_TO92</alias>
+        <alias>MC78L06_TO92</alias>
+        <alias>MC78L08_TO92</alias>
+        <alias>MC78L12_TO92</alias>
+        <alias>LM78L12_TO92</alias>
+        <alias>MC78L15_TO92</alias>
+        <alias>MC78L18_TO92</alias>
+        <alias>MC78L24_TO92</alias>
+        <alias>LM2931AZ-5.0_TO92</alias>
+        <alias>LM2936-3.0_TO92</alias>
+        <alias>LM2936-3.3_TO92</alias>
+        <alias>LM2936-5.0_TO92</alias>
+        <alias>LP2950-3.0_TO92</alias>
+        <alias>LP2950-3.3_TO92</alias>
+        <alias>LP2950-5.0_TO92</alias>
+        <alias>L78L33_TO92</alias>
+        <alias>L78L05_TO92</alias>
+        <alias>L78L06_TO92</alias>
+        <alias>L78L08_TO92</alias>
+        <alias>L78L09_TO92</alias>
+        <alias>L78L10_TO92</alias>
+        <alias>L78L12_TO92</alias>
+        <alias>L78L15_TO92</alias>
+        <alias>L78L18_TO92</alias>
+        <alias>L78L24_TO92</alias>
+      </aliases>
+      <description>Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92</description>
+      <docs>http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC78L05_TO92</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VO" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="172448-0002">
+      <description>Power to the Board MiniFitJr RA DR/Pegs Tin Glow Wire 2Ckt</description>
+      <docs>https://www.molex.com/pdm_docs/sd/1724480002_sd.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">172448-0002</field>
+        <field name="Footprint">1724480002</field>
+        <field name="Datasheet">https://www.molex.com/pdm_docs/sd/1724480002_sd.pdf</field>
+        <field name="Description">Power to the Board MiniFitJr RA DR/Pegs Tin Glow Wire 2Ckt</field>
+        <field name="Height">9.98</field>
+        <field name="Mouser Part Number">538-172448-0002</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/172448-0002?qs=UxK%2FDTs6dB7QCsYDDo1Dcw%3D%3D</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">172448-0002</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="172448-0004">
+      <description>MOLEX - 172448-0004 - MINIFIT JR RA DR/PEGS TIN GLOW WIRE 4CKT 28Y0329</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">172448-0004</field>
+        <field name="Footprint">1724480004</field>
+        <field name="Description">MOLEX - 172448-0004 - MINIFIT JR RA DR/PEGS TIN GLOW WIRE 4CKT 28Y0329</field>
+        <field name="Height">10</field>
+        <field name="Mouser Part Number">538-172448-0004</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/172448-0004?qs=UxK%2FDTs6dB6CtzGMQhL0Hg%3D%3D</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">172448-0004</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="64WR2KLF">
+      <description>Res Cermet Trimmer 2K Ohm 10% 0.25W(1/4W) 12(Elec)Turns 1.78mm (6.35 X 4.19 X 7.88mm) Pin Thru-Hole Tube</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/64WR2KLF.pdf</docs>
+      <fields>
+        <field name="Reference">VR</field>
+        <field name="Value">64WR2KLF</field>
+        <field name="Footprint">64WR2KLF</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/64WR2KLF.pdf</field>
+        <field name="Description">Res Cermet Trimmer 2K Ohm 10% 0.25W(1/4W) 12(Elec)Turns 1.78mm (6.35 X 4.19 X 7.88mm) Pin Thru-Hole Tube</field>
+        <field name="Height">8.39</field>
+        <field name="Mouser Part Number">858-64WR2KLF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=858-64WR2KLF</field>
+        <field name="Manufacturer_Name">BI Technologies</field>
+        <field name="Manufacturer_Part_Number">64WR2KLF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CCW" type="passive"/>
+        <pin num="2" name="WIPER" type="passive"/>
+        <pin num="3" name="CW" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="90136-1103">
+      <description>Header 2.54mm, single row, vertical, 3w Molex C-GRID III Series, Series Number 90136, 2.54mm Pitch 3 Way 1 Row Straight PCB Header, Solder Termination, 3A</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">90136-1103</field>
+        <field name="Footprint">SHDR3W65P0X254_1X3_1097X721X1110P</field>
+        <field name="Description">Header 2.54mm, single row, vertical, 3w Molex C-GRID III Series, Series Number 90136, 2.54mm Pitch 3 Way 1 Row Straight PCB Header, Solder Termination, 3A</field>
+        <field name="Height">11.1</field>
+        <field name="Mouser Part Number">538-90136-1103</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/90136-1103?qs=kEwmkoUtv7SHZQ1YiKbD1w%3D%3D</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">90136-1103</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="AD620ANZ">
+      <description>Instrumentation amplifier,AD620AN DIP8 AD620ANZ, Instrumentation Amplifier, 0.125mV Offset, 1MHz 73dB CMRR, 8-Pin PDIP</description>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">AD620ANZ</field>
+        <field name="Footprint">DIP794W56P254L959H533Q8N</field>
+        <field name="Description">Instrumentation amplifier,AD620AN DIP8 AD620ANZ, Instrumentation Amplifier, 0.125mV Offset, 1MHz 73dB CMRR, 8-Pin PDIP</field>
+        <field name="Height">5.33</field>
+        <field name="Mouser Part Number">584-AD620ANZ</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD620ANZ?qs=NmRFExCfTkHu6Llcn4Sf4Q%3D%3D</field>
+        <field name="Manufacturer_Name">Analog Devices</field>
+        <field name="Manufacturer_Part_Number">AD620ANZ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RG_1" type="passive"/>
+        <pin num="2" name="-IN" type="passive"/>
+        <pin num="3" name="+IN" type="passive"/>
+        <pin num="4" name="-VS" type="passive"/>
+        <pin num="5" name="REF" type="passive"/>
+        <pin num="6" name="OUTPUT" type="passive"/>
+        <pin num="7" name="+VS" type="passive"/>
+        <pin num="8" name="RG_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BD910">
+      <aliases>
+        <alias>BD912</alias>
+        <alias>TIP42</alias>
+        <alias>TIP42A</alias>
+        <alias>TIP42B</alias>
+        <alias>TIP42C</alias>
+      </aliases>
+      <description>15A, Silicon Power PNP Transistors, TO-220</description>
+      <docs>http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001277.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BD910</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BD911">
+      <aliases>
+        <alias>BD909</alias>
+        <alias>TIP41A</alias>
+        <alias>TIP41B</alias>
+        <alias>TIP41C</alias>
+        <alias>TIP41</alias>
+      </aliases>
+      <description>15A, Silicon Power NPN Transistors, TO-220</description>
+      <docs>http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001277.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BD911</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_PMIC-Voltage-Regulators-Linear" part="LM317T">
+      <description>IC REG LIN POS ADJ 1.5A TO220AB</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM317T</field>
+        <field name="Footprint">digikey-footprints:TO-220-3</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf</field>
+        <field name="Digi-Key_PN">497-1575-5-ND</field>
+        <field name="MPN">LM317T</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">PMIC - Voltage Regulators - Linear</field>
+        <field name="DK_Datasheet_Link">http://www.st.com/content/ccc/resource/technical/document/datasheet/group1/a0/db/e6/9b/6f/9c/45/7b/CD00000455/files/CD00000455.pdf/jcr:content/translations/en.CD00000455.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/stmicroelectronics/LM317T/497-1575-5-ND/591677</field>
+        <field name="Description">IC REG LIN POS ADJ 1.5A TO220AB</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/library/Diode.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Reference_Voltage">
+      <uri>/usr/share/kicad/library/Reference_Voltage.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>/home/solk-d10/Documents/Work/Phys/LDriver/lib/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/library/Transistor_BJT.lib</uri>
+    </library>
+    <library logical="dk_PMIC-Voltage-Regulators-Linear">
+      <uri>/home/solk-d10/Documents/Work/KiCad/resources/digikey-kicad-library/digikey-symbols/dk_PMIC-Voltage-Regulators-Linear.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C4" pin="1"/>
+      <node ref="VR2" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="VR1" pin="1"/>
+      <node ref="IC2" pin="5"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C1-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="4" name="/LD_control">
+      <node ref="J2" pin="1"/>
+      <node ref="VR1" pin="3"/>
+    </net>
+    <net code="5" name="/12V">
+      <node ref="J1" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="6" name="Net-(Q3-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C11-Pad1)">
+      <node ref="R13" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="8" name="Net-(Q2-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="9" name="Net-(Q1-Pad3)">
+      <node ref="R2" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="10" name="Net-(D3-Pad2)">
+      <node ref="Q3" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D1-Pad2)">
+      <node ref="R4" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="12" name="/9V">
+      <node ref="C3" pin="1"/>
+      <node ref="IC2" pin="7"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="13" name="Net-(D2-Pad2)">
+      <node ref="VR2" pin="3"/>
+      <node ref="D2" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="14" name="/I_set">
+      <node ref="VR2" pin="2"/>
+      <node ref="IC2" pin="3"/>
+    </net>
+    <net code="15" name="/I_control">
+      <node ref="R11" pin="2"/>
+      <node ref="IC2" pin="6"/>
+    </net>
+    <net code="16" name="/I_Fb">
+      <node ref="Q3" pin="3"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="17" name="/LD_On">
+      <node ref="J2" pin="3"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="18" name="Net-(IC2-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="IC2" pin="2"/>
+    </net>
+    <net code="19" name="/-9V">
+      <node ref="C5" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="IC2" pin="4"/>
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="20" name="Net-(D2-Pad3)">
+      <node ref="IC1" pin="6"/>
+      <node ref="D2" pin="3"/>
+    </net>
+    <net code="21" name="/-12V">
+      <node ref="J1" pin="3"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="22" name="Net-(IC1-Pad8)">
+      <node ref="IC1" pin="8"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="23" name="Net-(IC1-Pad3)">
+      <node ref="IC1" pin="3"/>
+      <node ref="VR1" pin="2"/>
+    </net>
+    <net code="24" name="Net-(D1-Pad3)">
+      <node ref="R5" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="D1" pin="3"/>
+    </net>
+    <net code="25" name="/LD_power">
+      <node ref="R4" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="26" name="Net-(IC1-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="27" name="Net-(IC2-Pad8)">
+      <node ref="IC2" pin="8"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="28" name="Net-(IC2-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="IC2" pin="1"/>
+    </net>
+  </nets>
+</export>
